@@ -1,0 +1,161 @@
+/* Reset simples */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+    background-color: #0d1117; /* Preto/Azul escuro fosco */
+    color: #f0f6fc;            /* Branco suave */
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+/* Header estático e limpo */
+header {
+    background-color: #010409; /* Preto */
+    padding: 1.25rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #1f293d;
+}
+
+.logo {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #38bdf8; /* Azul claro */
+    letter-spacing: -0.2px;
+}
+
+nav a {
+    color: #e2e8f0;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* Seção Hero / Início */
+.hero {
+    padding: 4rem 0 3rem 0;
+    text-align: center;
+    background-color: #0d1117;
+}
+
+.hero h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0.8rem;
+}
+
+.hero p {
+    font-size: 1.05rem;
+    color: #94a3b8;
+    max-width: 550px;
+    margin: 0 auto 3rem auto;
+}
+
+/* Cards de Informação estáticos */
+.info-grid {
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+}
+
+.info-card {
+    background-color: #161e2e; /* Azul escuro sóbrio */
+    padding: 1.5rem 1.25rem;
+    border-radius: 6px;
+    border: 1px solid #243047;
+    width: 250px;
+    text-align: left;
+}
+
+.card-label {
+    display: block;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #38bdf8; /* Azul claro */
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+}
+
+.card-value {
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+/* Seção de Inscrição */
+.inscricao {
+    padding: 3.5rem 0 4.5rem 0;
+    text-align: center;
+    border-top: 1px solid #161e2e;
+}
+
+.inscricao h2 {
+    font-size: 1.6rem;
+    color: #ffffff;
+    margin-bottom: 0.6rem;
+}
+
+.inscricao p {
+    color: #94a3b8;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Botão simples e funcional */
+.btn-forms {
+    display: inline-block;
+    background-color: #0284c7; /* Azul escuro/médio sóbrio */
+    color: #ffffff;
+    padding: 0.75rem 1.8rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #38bdf8;
+}
+
+.btn-forms:hover {
+    background-color: #0369a1;
+}
+
+/* Footer / Rodapé */
+footer {
+    background-color: #000000; /* Preto */
+    text-align: center;
+    padding: 1.5rem;
+    border-top: 2px solid #0f1c3f;
+    color: #ffffff; /* Branco */
+    font-weight: 500;
+}
+
+.github-link {
+    color: #38bdf8; /* Azul Claro */
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border-bottom: 1px dashed #38bdf8;
+}
+
+.github-link:hover {
+    color: #ffffff; /* Fica branco ao passar o mouse */
+    border-bottom-style: solid;
+}
